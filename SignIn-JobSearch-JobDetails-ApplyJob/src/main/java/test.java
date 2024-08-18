@@ -27,13 +27,13 @@ public class test {
             loginButton.click();
 
             WebElement usernameField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("TXTUSERNAME")));
-            usernameField.sendKeys("avary");
+            usernameField.sendKeys("demo123");
 
             WebElement nextButton = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".btn.btn-success.btn-signin")));
             nextButton.click();
 
             WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("TXTPASS")));
-            passwordField.sendKeys("12345678");
+            passwordField.sendKeys("demo123");
 
             WebElement finalLoginButton = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector(".btn.btn-success.btn-signin.btn-block")));
             finalLoginButton.click();
