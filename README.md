@@ -1,5 +1,7 @@
 # Project Summary: Bdjobs Automation Project
 This project is an automation script designed to interact with the job portal "Bdjobs.com Ltd" using Selenium WebDriver. The primary objective of this automation script is to automate the process of logging into the website, searching for jobs, and performing various interactions such as shortlisting jobs, applying for them, and undoing applications. The script is written in Java and leverages the Selenium WebDriver for browser automation and WebDriverManager for managing browser driver binaries.
+
+Check Lis: https://docs.google.com/spreadsheets/d/1XnaxHyw21hx2cRP04HF5UtQSjfNCTebr0B2Ify_YH5E/edit?gid=1389889247#gid=1389889247
 # Project Features:
 # 1. Automated Login:
 - The script navigates to the Bdjobs website and automates the login process by entering the username and password.
